@@ -93,7 +93,7 @@ No **buildout.cfg** incluir o passo **[lxml]**:
 ::
     [buildout]
     extends =
-        development.cfg
+        production.cfg
 
     [lxml]
     recipe = z3c.recipe.staticlxml
